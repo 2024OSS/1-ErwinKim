@@ -29,7 +29,7 @@
         }
 
         .head .logo {
-            font-size: 28px;
+            font-size: 26px;
             font-weight: lighter bold;
             margin-left:400px;
         }
@@ -37,7 +37,7 @@
         .head .rightlogo {
             font-size: 20px;
             font-weight: bold;
-            margin-left:1%;
+            margin-right:430px;
         }
 
         .head nav ul li {
@@ -48,11 +48,8 @@
             color: white;
             text-decoration-line: none; /* Applies the underline */
             text-decoration-thickness: 3px;  /* Sets the thickness of the underline */
-            padding: 8px 12px;
             font-size: 16px;
         }
-
-       
 
         .head .active{
             color:white; 
@@ -89,19 +86,20 @@
         }
 
         .cover h1 {
-            font-size: calc(1.375rem + 1.5vw);
-            margin-top: 0;
-            margin-bottom: .5rem;
-            font-weight: 500;
-            line-height: 1.2;
-            color: var(--bs-heading-color);
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
         }
 
         .cover p {
-            font-size: 18px;
-            max-width: 600px;
-            margin: 0 auto 40px auto;
-            line-height: 1.6;
+            font-size: 20px;
+            font-weight: lighter;
+            max-width: 580px;
+            line-height: 1.5;
         }
 
         .cover .btn {
@@ -139,9 +137,7 @@
         footer a {
             color: white;
             text-decoration: none;
-        }
-
-        
+        }  
     </style>
 </head>
 <body>
@@ -151,16 +147,18 @@
         <div class = "rightlogo head right">
             <nav>
                 <ul>
+                    <p>
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href="#" class = "inactive" style="color:#959595">Features</a></li>
                     <li><a href="#" class = "inactive" style="color:#959595">Contact</a></li>
+                    </p>
                 </ul>
             </nav>
         </div>
     </header>
     <div class="cover">
-        <h1 style="margin:5px">Cover your page.</h1>
-        <p style = "margin: 1%">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <h1 style="margin:0px">Cover your page.</h1>
+        <p style = "margin: 1%" class = "lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
         <a href="#" class="btn">Learn more</a>
     </div>
     <footer>
